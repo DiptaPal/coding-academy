@@ -1,7 +1,7 @@
 [
     {
         "id": "011190",
-        "img": "../src/images/html.jpg",
+        "img": "https://i.ibb.co/B2672Pk/html.jpg",
         "name": "Html",
         "about": "HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.",
         "rating": "5",
@@ -10,7 +10,7 @@
       },
       {
         "id": "011191",
-        "img": "../src/images/CSS.jpeg",
+        "img": "https://i.ibb.co/J3YGnxW/CSS.jpg",
         "name": "CSS",
         "about": "CSS stands for Cascading Style Sheets · CSS describes how HTML elements are to be displayed on screen, paper, or in other media.",
         "rating": "4.6",
@@ -19,7 +19,7 @@
       },
       {
         "id": "011192",
-        "img": "../src/images/bootstrap.png",
+        "img": "https://i.ibb.co/B6mKcg3/bootstrap.png",
         "name": "Bootstrap",
         "about": " Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.",
         "rating": "4.8",
@@ -28,7 +28,7 @@
       },
       {
         "id": "011193",
-        "img": "../src/images/tailwind.png",
+        "img": "https://i.ibb.co/KWh42v1/tailwind.png",
         "name": "Tailwind",
         "about": "Tailwind CSS makes it quicker to write and maintain the code of your application. By using this utility-first framework, you don't have to write custom CSS to style your application. Instead, you can use utility classes to control the padding, margin, color, font, shadow, and more of your application.",
         "rating": "4.9",
@@ -37,7 +37,7 @@
       },
       {
         "id": "011194",
-        "img": "../src/images/js.jpg",
+        "img": "https://i.ibb.co/wgrSw9R/js.jpg",
         "name": "JavaScript",
         "about": "JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well.",
         "rating": "5",
@@ -46,7 +46,7 @@
       },
       {
         "id": "011195",
-        "img": "../src/images/react.png",
+        "img": "https://i.ibb.co/7jSTW3f/react.png",
         "name": "React",
         "about": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.",
         "rating": "4.9",
