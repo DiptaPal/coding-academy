@@ -15,6 +15,10 @@ const Activities = () => {
         .catch(error => console.log(error))
     },[])
 
+    const handleExerciseTime = () =>{
+        
+    }
+
     return (
         <div>
              <div className='grid grid-cols-7 gap-4 bg-gray-200'>
@@ -26,6 +30,7 @@ const Activities = () => {
                           activities.map(activity => <Activity
                             activity = {activity}
                             key={activity.id}
+                            handleExerciseTime = {handleExerciseTime}
                           ></Activity>)
                         }
                     </div>
