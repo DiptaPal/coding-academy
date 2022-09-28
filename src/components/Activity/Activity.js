@@ -20,7 +20,7 @@ const Activity = ({activity, handleExerciseTime}) => {
                         </div>
                     </div>
                     <div className="card-actions">
-                        <button onClick={() => {handleExerciseTime()}} className="bg-lean-500 w-full bg-teal-500 text-black hover:bg-black hover:text-white rounded-md flex flex-row py-3 justify-center items-center"><p className='pr-2'>Add to Cart</p></button>
+                        <button onClick={() => {handleExerciseTime(activity)}} className="bg-lean-500 w-full bg-teal-500 text-black hover:bg-black hover:text-white rounded-md flex flex-row py-3 justify-center items-center"><p className='pr-2'>Add to Cart</p></button>
                     </div>
                 </div>
             </div>

@@ -7,6 +7,7 @@ import './Activities.css'
 
 const Activities = () => {
     const [activities,setActivites] = useState([]);
+    const [task, setTask] = useState([])
 
     useEffect(() => {
         fetch('activities.json')
@@ -15,8 +16,9 @@ const Activities = () => {
         .catch(error => console.log(error))
     },[])
 
-    const handleExerciseTime = () =>{
-        
+    const handleExerciseTime = (activity) =>{
+        let newActivity = [...task,activity]
+        setTask(newActivity);
     }
 
     return (
@@ -37,7 +39,9 @@ const Activities = () => {
                 </div>
                 <div className='rounded-md mx-24 py-8 mb-5 md:rounded-none md:mx-0 md:py-0 md:mb-0 col-span-7 md:col-span-3 lg:col-span-2 bg-white text-black relative'>
                 <div className='sticky top-0'>
-                    <Cart></Cart>
+                    <Cart 
+                        cart = {task}
+                    ></Cart>
                 </div>
             </div>
         </div>
