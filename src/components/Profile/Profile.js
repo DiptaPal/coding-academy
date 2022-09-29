@@ -19,21 +19,21 @@ const Profile = () => {
             </div>
             <div className='bg-gray-200 mx-6 text-lg mt-12 rounded-md py-6'>
                 <p>United International University</p>
-                <p>CSE Department</p>
+                <p>Department of CSE</p>
                 <div className='flex items-center justify-between px-6 pt-4'>
                     <div>
-                        <p>75<span>kg</span></p>
-                        <p>Weight</p>
+                        <p><span className='text-4xl font-bold'>75</span><span className='text-lg text-gray-500'>kg</span></p>
+                        <p className='text-xl'>Weight</p>
                     </div>
 
                     <div>
-                        <p>5.6</p>
-                        <p>Height</p>
+                        <p className='text-4xl font-bold'>5.6</p>
+                        <p className='text-xl'>Height</p>
                     </div>
                     
                     <div>
-                        <p>25<span>yrs</span></p>
-                        <p>Age</p>
+                        <p><span className='text-4xl font-bold'>25</span><span className='text-lg text-gray-500'>yrs</span></p>
+                        <p  className='text-xl'>Age</p>
                     </div>
                 </div>
             </div>

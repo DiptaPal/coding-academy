@@ -40,7 +40,7 @@ const Activities = () => {
                     <Question></Question>
                 </div>
                 <div className='rounded-md mx-24 py-8 mb-5 md:rounded-none md:mx-0 md:py-0 md:mb-0 col-span-7 md:col-span-3 lg:col-span-2 bg-white text-black relative'>
-                <div className='sticky top-0'>
+                <div className='sticky top-2'>
                     <Cart 
                         cart = {task}
                     ></Cart>
