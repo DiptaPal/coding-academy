@@ -41,7 +41,7 @@ const Practice = ({totalTime}) => {
                 <p>{breakTime}m</p>
             </div>
             <div>
-                <button onClick={handleToast} className='py-4 bg-teal-500 w-full rounded-md text-2xl font-semibold'>Activity Completed</button>
+                <button onClick={handleToast} className='py-4 bg-teal-500 w-full rounded-md text-2xl font-semibold mb-6'>Activity Completed</button>
             </div>
         </div>
     );

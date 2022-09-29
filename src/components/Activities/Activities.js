@@ -24,7 +24,7 @@ const Activities = () => {
 
     return (
         <div>
-             <div className='grid grid-cols-7 gap-4 bg-gray-200 px-4 md:px-0 md:pl-4'>
+            <div className='grid grid-cols-7 gap-4 bg-gray-200 px-4 md:px-0 md:pl-4'>
                 <div className='col-span-7 md:col-span-4 lg:col-span-5 mt-4'>
                     <Header></Header>
                     <h1 className='text-center text-xl md:text-3xl font-semibold md:text-left text-black mb-10'>Select today’s coding practice</h1>
