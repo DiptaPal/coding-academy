@@ -24,18 +24,18 @@ const Profile = () => {
                 </div>
                 <div className='flex items-center justify-between px-6 pt-4'>
                     <div>
-                        <p><span className='sm:text-4xl font-bold'>75</span><span className='sm:text-lg text-gray-500'>kg</span></p>
-                        <p className='sm:text-xl'>Weight</p>
+                        <p><span className='sm:text-3xl lg:text-2xl xl:3xl font-bold'>75</span><span className='sm:text-base lg:text-lg xl:text-base'>kg</span></p>
+                        <p className='sm:text-lg lg:text-base xl:text-lg'>Weight</p>
                     </div>
 
                     <div>
-                        <p className='sm:text-4xl font-bold'>5.6</p>
-                        <p className='sm:text-xl'>Height</p>
+                        <p className='sm:text-3xl lg:text-2xl xl:3xl font-bold'>5.6</p>
+                        <p className='sm:text-lg lg:text-base xl:text-lg'>Height</p>
                     </div>
                     
                     <div>
-                        <p><span className='sm:text-4xl font-bold'>25</span><span className='sm:text-lg text-gray-500'>yrs</span></p>
-                        <p  className='sm:text-xl'>Age</p>
+                        <p><span className='sm:text-3xl lg:text-2xl xl:3xl font-bold'>25</span><span className='sm:text-base lg:text-lg xl:text-base'>yrs</span></p>
+                        <p  className='sm:text-lg lg:text-base xl:text-lg'>Age</p>
                     </div>
                 </div>
             </div>

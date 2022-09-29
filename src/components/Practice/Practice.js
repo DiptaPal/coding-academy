@@ -24,7 +24,7 @@ const Practice = ({totalTime}) => {
     return (
         <div className='px-6 mt-6'>
             <h1 className='text-left text-2xl mb-6 font-semibold'>Add a Break</h1>
-            <div className='bg-gray-200 sm:text-lg rounded-md py-6 px-2 sm:px-6 flex items-end justify-between font-semibold'>
+            <div className='bg-gray-200 sm:text-lg rounded-md py-6 px-2 sm:px-6 flex items-end md:flex-wrap md:gap-2 justify-between font-semibold'>
                 <button onClick={() => addBreak(10)} className='rounded-full bg-teal-500 h-10 w-10 sm:w-14 sm:h-14'>10m</button>
                 <button onClick={() => addBreak(20)} className='rounded-full bg-teal-500 h-10 w-10 sm:w-14 sm:h-14'>20m</button>
                 <button onClick={() => addBreak(30)} className='rounded-full bg-teal-500 h-10 w-10 sm:w-14 sm:h-14'>30m</button>
