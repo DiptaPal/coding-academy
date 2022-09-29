@@ -9,7 +9,7 @@ const Activity = ({activity, handleExerciseTime}) => {
     return (
         <div className='mb-6'>
             <div className="card bg-white text-black p-5 shadow-md">
-                <figure><img src={img} className="rounded-md w-full h-[200px] bg-cover" alt="Shoes" /></figure>
+                <figure><img src={img} className="rounded-md" alt="Shoes" /></figure>
                 <div className="text-left">
                     <div className='flex flex-col gap-4 py-4'>
                         <div>
