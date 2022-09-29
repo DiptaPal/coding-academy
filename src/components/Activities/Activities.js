@@ -11,9 +11,12 @@ const Activities = () => {
     const [task, setTask] = useState([])
 
     useEffect(() => {
-        fetch('activities.json')
+        fetch('./activities.json')
         .then(res => res.json())
-        .then(data => setActivities(data))
+        .then(data => {
+            setActivities(data) 
+            localStorage.setItem('break-time',0);
+        })
     },[])
 
     const handleExerciseTime = (activity) =>{
