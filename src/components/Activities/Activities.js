@@ -14,7 +14,6 @@ const Activities = () => {
         fetch('activities.json')
         .then(res => res.json())
         .then(data => setActivities(data))
-        .catch(error => console.log(error))
     },[])
 
     const handleExerciseTime = (activity) =>{
@@ -25,9 +24,9 @@ const Activities = () => {
     return (
         <div>
             <div className='grid grid-cols-7 gap-4 bg-gray-200 px-4 md:px-0 md:pl-4'>
-                <div className='col-span-7 md:col-span-4 lg:col-span-5 mt-4'>
+                <div className='col-span-7 md:col-span-4 lg:col-span-5 mt-4 md:px-10 lg:px-20'>
                     <Header></Header>
-                    <h1 className='text-center text-xl md:text-3xl font-semibold md:text-left text-black mb-10'>Select today’s coding practice</h1>
+                    <h1 className='text-xl md:text-3xl font-semibold xl:text-left text-center text-black mb-10'>Select today’s coding practice</h1>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-12'>
                         {
                           activities.map(activity => <Activity

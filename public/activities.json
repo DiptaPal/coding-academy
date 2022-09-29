@@ -12,7 +12,7 @@
         "id": "011191",
         "img": "https://i.ibb.co/YBCGwXM/CSS.jpg",
         "name": "CSS",
-        "about": "CSS stands for Cascading Style Sheets · CSS describes how HTML elements are to be displayed on screen, paper, or in other media.",
+        "about": "CSS stands for Cascading Style Sheets.CSS describes how HTML elements are to be displayed on screen, paper, or in other media.",
         "rating": "4.6",
         "time": 50,
         "gender": "female"
@@ -21,7 +21,7 @@
         "id": "011192",
         "img": "https://i.ibb.co/Wp52GQ6/bootstrap.png",
         "name": "Bootstrap",
-        "about": " Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.",
+        "about": "Bootstrap is a free front-end framework for faster and easier web development. Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins.",
         "rating": "4.8",
         "time": 50,
         "gender": "female"
@@ -30,7 +30,7 @@
         "id": "011193",
         "img": "https://i.ibb.co/WFDkCZm/tailwind.png",
         "name": "Tailwind",
-        "about": "Tailwind CSS makes it quicker to write and maintain the code of your application. By using this utility-first framework, you don't have to write custom CSS to style your application. Instead, you can use utility classes to control the padding, margin, color, font, shadow, and more of your application.",
+        "about": "Tailwind CSS makes it quicker to write and maintain the code of your application.By using this utility-first framework, you don't have to write custom CSS to style your application. Instead, you can use utility classes to control the padding, margin, color, font, shadow, and more of your application.",
         "rating": "4.9",
         "time": 45,
         "gender": "male"
