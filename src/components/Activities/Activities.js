@@ -6,13 +6,13 @@ import Header from '../Header/Header'
 import './Activities.css'
 
 const Activities = () => {
-    const [activities,setActivites] = useState([]);
+    const [activities,setActivities] = useState([]);
     const [task, setTask] = useState([])
 
     useEffect(() => {
         fetch('activities.json')
         .then(res => res.json())
-        .then(data => setActivites(data))
+        .then(data => setActivities(data))
         .catch(error => console.log(error))
     },[])
 

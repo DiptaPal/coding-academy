@@ -1,17 +1,19 @@
 import './App.css';
 import Activities from './components/Activities/Activities';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Question from './components/Question/Question';
 
 
 function App() {
   return (
     <div className="App">
         <Activities></Activities>
-        
-        <ToastContainer
-          position="top-left"
-          autoClose={5000}
+        <Question></Question>
+
+        <ToastContainer 
+          position='top-left'
+          autoClose={3000}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick

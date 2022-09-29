@@ -1,14 +1,26 @@
-import React from 'react';
-import { toast } from 'react-toastify';
-import './Practice.css'
+import {toast } from 'react-toastify';
+import React, { useEffect, useState } from 'react';
+import { addToLocalStore, getStoredTime } from '../../utilities/fakeDb';
+import './Practice.css';
 
 const Practice = ({totalTime}) => {
+    const [time, setTime] = useState(0);
+    const [breakTime, setBreakTime] = useState([])
+    
     const handleToast = () =>{
         toast.success("Congratulation !! you have done your activity 😊");
     }
-    const addBreak = (time) => {
-        console.log(time);
+
+    const addBreak = (breakTime) => {
+        addToLocalStore(breakTime)
+        setTime(breakTime);
     }
+
+    useEffect(() => {
+        const getTime = getStoredTime();
+        setBreakTime(getTime)
+    }, [time])
+    
     return (
         <div className='px-6 mt-6'>
             <h1 className='text-left text-2xl mb-6 font-semibold'>Add a Break</h1>
@@ -26,7 +38,7 @@ const Practice = ({totalTime}) => {
             </div>
             <div className='bg-gray-200 text-2xl my-6 rounded-md p-6 flex items-center justify-between'>
                 <p>Break time</p>
-                <p></p>
+                <p>{breakTime}m</p>
             </div>
             <div>
                 <button onClick={handleToast} className='py-4 bg-teal-500 w-full rounded-md text-2xl font-semibold'>Activity Completed</button>
