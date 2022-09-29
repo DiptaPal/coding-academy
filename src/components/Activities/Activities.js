@@ -4,6 +4,7 @@ import Activity from '../Activity/Activity';
 import Cart from '../Cart/Cart';
 import Header from '../Header/Header'
 import './Activities.css'
+import Question from '../Question/Question';
 
 const Activities = () => {
     const [activities,setActivities] = useState([]);
@@ -36,6 +37,7 @@ const Activities = () => {
                           ></Activity>)
                         }
                     </div>
+                    <Question></Question>
                 </div>
                 <div className='rounded-md mx-24 py-8 mb-5 md:rounded-none md:mx-0 md:py-0 md:mb-0 col-span-7 md:col-span-3 lg:col-span-2 bg-white text-black relative'>
                 <div className='sticky top-0'>

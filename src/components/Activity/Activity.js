@@ -1,5 +1,7 @@
 import React from 'react';
-import './Activity.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
+import './Activity.css';
 
 const Activity = ({activity, handleExerciseTime}) => {
     const {img, name, about, rating, time } = activity;
@@ -20,7 +22,7 @@ const Activity = ({activity, handleExerciseTime}) => {
                         </div>
                     </div>
                     <div className="card-actions">
-                        <button onClick={() => {handleExerciseTime(activity)}} className="bg-lean-500 w-full bg-teal-500 text-black hover:bg-black hover:text-white rounded-md flex flex-row py-3 justify-center items-center"><p className='pr-2'>Add to list</p></button>
+                        <button onClick={() => {handleExerciseTime(activity)}} className="bg-lean-500 w-full bg-teal-500 text-black hover:bg-black hover:text-white rounded-md flex flex-row py-3 justify-center items-center"><p className='pr-2'>Add to list</p><FontAwesomeIcon icon={faPenToSquare}></FontAwesomeIcon></button>
                     </div>
                 </div>
             </div>
