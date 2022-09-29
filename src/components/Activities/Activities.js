@@ -21,7 +21,7 @@ const Activities = () => {
         setTask(newActivity);
     }
 
-    console.log(activities);
+    
     return (
         <div>
             <div className='grid grid-cols-7 gap-4 bg-gray-200 px-4 md:px-0 md:pl-4'>
