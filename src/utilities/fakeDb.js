@@ -9,7 +9,7 @@ const getStoredTime = () =>{
         addingTime = JSON.parse(addedTime);
     }
     else{
-        localStorage.setItem('break-time',0);
+        addingTime = 0;
     }
     return addingTime;
 }

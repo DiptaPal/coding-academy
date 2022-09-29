@@ -15,7 +15,6 @@ const Activities = () => {
         .then(res => res.json())
         .then(data => {
             setActivities(data) 
-            localStorage.setItem('break-time',0);
         })
     },[])
 
