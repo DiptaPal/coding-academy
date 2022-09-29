@@ -8,17 +8,19 @@ const Activity = ({activity, handleExerciseTime}) => {
 
     return (
         <div className='mb-6'>
-            <div className="card bg-white text-black p-5 shadow-md">
-                <figure><img src={img} className="rounded-md" alt="Shoes" /></figure>
+            <div className="card bg-white text-black p-5 shadow-md flex flex-col justify-between h-full w-full">
+                <div>
+                    <figure><img src={img} className="rounded-md" alt="Shoes" /></figure>
+                </div>
                 <div className="text-left">
-                    <div className='flex flex-col gap-4 py-4'>
+                    <div className='flex flex-col gap-5 py-4'>
                         <div>
                             <h2 className="text-2xl font-semibold">{name}</h2>
                         </div>
-                        <div className='text-lg'>
-                            <p>{about.slice(0,90)+'...'}</p>
+                        <div className='text-xl'>
+                            <p>{about.slice(0, 100)+'...'}</p>
                         </div>
-                        <div>
+                        <div className='text-lg'>
                             <p>Rating : {rating} stars</p>
                             <p>Time required : {time}m</p>
                         </div>
