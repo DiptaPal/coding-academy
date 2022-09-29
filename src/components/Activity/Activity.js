@@ -16,7 +16,7 @@ const Activity = ({activity, handleExerciseTime}) => {
                             <h2 className="text-2xl font-semibold">{name}</h2>
                         </div>
                         <div className='text-lg'>
-                            <p>{about.slice(0,90)+'...'}</p>
+                            <p>{about.slice(0, 75)+'...'}</p>
                         </div>
                         <div>
                             <p>Rating : {rating} stars</p>
